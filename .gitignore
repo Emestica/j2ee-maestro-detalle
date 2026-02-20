@@ -1,19 +1,39 @@
+############################
+# Maven
+############################
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+############################
+# Compiled files
+############################
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+############################
+# Package files
+############################
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+############################
+# IntelliJ IDEA
+############################
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### Eclipse ###
+############################
+# Eclipse
+############################
 .apt_generated
 .classpath
 .factorypath
@@ -22,18 +42,22 @@ target/
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+############################
+# NetBeans
+############################
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+############################
+# VS Code
+############################
 .vscode/
 
-### Mac OS ###
+############################
+# OS
+############################
 .DS_Store
